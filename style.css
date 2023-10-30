@@ -1,3 +1,11 @@
-.imagen{
-    background-image: url(assets/images/icon-arrow.svg);
+.flecha{
+background-color: hsl(259, 100%, 65%);
+border-radius: 50px;
+height: 30px;
+padding: 20px;
+}
+
+.flecha:hover{
+    background-color: black;
+    
 }
