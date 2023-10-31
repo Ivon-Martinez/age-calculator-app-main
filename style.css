@@ -9,3 +9,40 @@ padding: 20px;
     background-color: black;
     
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    color: hsl(259, 100%, 65%);
+}
+
+.container{
+    background-color: red;
+}
+h3{
+    color: hsl(0, 1%, 44%);
+}
+.arriba{
+    display: flex;
+    flex-direction: column;
+}
+.titulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.edits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+.edit{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
