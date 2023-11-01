@@ -3,6 +3,8 @@ background-color: hsl(259, 100%, 65%);
 border-radius: 50px;
 height: 30px;
 padding: 20px;
+float: inline-end;
+
 }
 
 .flecha:hover{
@@ -12,20 +14,39 @@ padding: 20px;
 body{
     display: flex;
     flex-direction: column;
+    background-color: hsl(0, 0%, 94%);
 }
 p{
     color: hsl(259, 100%, 65%);
+    letter-spacing: 5px;
+    font-size: 80px;
+    margin: 0px;
+}
+h1{
+    font-family: monospace;
+    font-size: 50px;
+    margin: 0px;
+}
+.container{
+    background-color:hsl(0, 0%, 100%);
+    height: 100%;
+    width: 550px;
+    border-radius: 15px;
+    border-bottom-right-radius: 150px;
+    padding: 40px;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-.container{
-    background-color: red;
-}
-h3{
+/*h3{
     color: hsl(0, 1%, 44%);
 }
 .arriba{
     display: flex;
     flex-direction: column;
+    background-color: yellow;
+    width: fit-content;
 }
 .titulos{
     display: flex;
@@ -39,10 +60,40 @@ h3{
     justify-content: space-evenly;
 
 
-}
+}*/
 .edit{
     width: 100px;
     height: 40px;
+    border-radius: 5px;
+    border: solid;
+    border-width: thin;
+    border-block-color: hsl(0, 0%, 86%);
+    border-inline-color: hsl(0, 0%, 86%);
+    padding-left: 15px;
+}
+table{
+}
+td,th{
+    text-align: left;
+}
+th{
+    color:hsl(0, 1%, 44%);
+    font-family: system-ui;
+    letter-spacing: 2px;
+    font-size: 8px;
+}
+td{
+    -webkit-text-stroke: medium;
+    font-size: 10px;
+}
+
+.abajo{
+    display: flex;
+    flex-direction: column;
+}
+.ab{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }

@@ -16,8 +16,8 @@
 </head>
 <body>
   <script src="code.js"></script>
-  <container>
-    <div class="arriba">
+  <div class="container">
+    <!--<div class="arriba">
       <div class="titulos">
         <h3>DAY</h3>
         <h3>MONTH</h3>
@@ -30,28 +30,43 @@
         <input type="text" class="edit" placeholder="YYYY">
       
       </div>
-     </div> 
+     </div> -->
+     <table>
+      <tr>
+        <th>DAY</th>
+        <th>MONTH</th>
+        <th>YEAR</th>
+      </tr>
+      <tr>
+        <td><input type="text" class="edit" placeholder="DD"></td>
+      <td>        <input type="text" class="edit" placeholder="MM">
+      </td>
+      <td>        <input type="text" class="edit" placeholder="YYYY">
+      </td>
+      </tr>
+
+     </table>
     <div class="imagen">
       <img src="assets/images/icon-arrow.svg" alt="imagenflecha" class="flecha">
       
     </div>
     <div class="abajo">
-      <div>
+      <div class="ab">
         <p>
           --
         </p>
         <h1>years</h1>
       </div>
-      <div>
+      <div class="ab">
         <p>--</p>
         <h1>months</h1>
       </div>
-      <div>
+      <div class="ab">
         <p>--</p>
         <h1>days</h1>
       </div>
     </div>
-  </container>
+  </div>
 
    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
