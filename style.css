@@ -6,26 +6,38 @@ padding: 20px;
 float: inline-end;
 
 }
+body{
+    max-width:1440px;
+    min-width:375px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 94%);
+    margin-left: 130px;
+}
 
 .flecha:hover{
     background-color: black;
     
 }
-body{
-    display: flex;
-    flex-direction: column;
-    background-color: hsl(0, 0%, 94%);
-}
+
 p{
     color: hsl(259, 100%, 65%);
     letter-spacing: 5px;
     font-size: 80px;
     margin: 0px;
+    font-family: poppins ExtraBold;
+    font-style: italic;
+
+
 }
 h1{
-    font-family: monospace;
-    font-size: 50px;
+    font-family: poppins ExtraBold;
+    font-size: 75px;
     margin: 0px;
+    font-style: italic;
+    font-weight: 800i;
+
 }
 .container{
     background-color:hsl(0, 0%, 100%);
@@ -41,7 +53,7 @@ h1{
 
 .edit{
     width: 100px;
-    height: 40px;
+    height: 45px;
     border-radius: 5px;
     border: solid;
     border-width: thin;
@@ -55,13 +67,15 @@ td,th{
 }
 th{
     color:hsl(0, 1%, 44%);
-    font-family: system-ui;
+    font-family: poppins ExtraBold;
     letter-spacing: 2px;
-    font-size: 8px;
+    font-size: 10px;
 }
 td{
     -webkit-text-stroke: medium;
-    font-size: 10px;
+    font-size: 12px;
+    font-family: poppins ExtraBold;
+
 }
 
 .abajo{
@@ -73,6 +87,8 @@ td{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    height: 85px;
+
 }
 .linea{
     border-top: 1px solid hsl(0, 0%, 86%);
@@ -86,4 +102,7 @@ td{
     flex-direction: row;
     align-items: center;
 
+  }
+  table{
+    width: 430px;
   }
