@@ -94,9 +94,10 @@ td{
     border-top: 1px solid hsl(0, 0%, 86%);
     width: 470px;
 }
-/*hr.solid {
-    border-top: 3px solid #bbb;
-  }*/
+.linea2{
+
+}
+
   .imagensection{
     display: flex;
     flex-direction: row;
@@ -105,4 +106,79 @@ td{
   }
   table{
     width: 430px;
+  }
+  @media only screen and (max-width: 845px){
+    body{
+        background-color: blue;
+    }    
+ 
+    .linea{
+        border-top: 1px solid hsl(0, 0%, 86%);
+        width: 124px;
+    }
+    .linea2{
+        border-top: 1px solid hsl(0, 0%, 86%);
+        width: 124px;
+    }
+    .imagensection{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    
+      }
+      p{
+        letter-spacing: 5px;
+        font-size: 60px;
+
+    }
+    h1{
+        font-family: poppins ExtraBold;
+        font-size: 55px;
+        margin: 0px;
+        font-style: italic;
+        font-weight: 800i;
+    
+    }
+    .container{
+        height: 100%;
+        width: auto;
+        padding: 25px;
+        padding-top: 55px;
+        margin: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        border-bottom-right-radius: 100px;
+
+    }
+    .edit{
+        width: 70px;
+        border-radius: 5px;
+        border: solid;
+        border-width: thin;
+        border-block-color: hsl(0, 0%, 86%);
+        border-inline-color: hsl(0, 0%, 86%);
+        padding-left: 15px;
+    }
+    table{
+        width: 320px;
+      }
+      th{
+        color:hsl(0, 1%, 44%);
+        font-family: poppins ExtraBold;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+    .ab{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 58px;
+    
+    }
+    .abajo{
+        margin-bottom: 30px;
+    }
   }
