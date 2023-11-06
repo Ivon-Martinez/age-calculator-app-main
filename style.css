@@ -20,6 +20,12 @@ body{
     background-color: black;
     
 }
+.edit:hover{
+    border-block-color: hsl(259, 100%, 65%);
+    border-inline-color: hsl(259, 100%, 65%);
+    cursor: pointer;
+}
+
 
 p{
     color: hsl(259, 100%, 65%);
@@ -53,13 +59,18 @@ h1{
 
 .edit{
     width: 100px;
-    height: 45px;
+    height: 48px;
     border-radius: 5px;
     border: solid;
     border-width: thin;
     border-block-color: hsl(0, 0%, 86%);
     border-inline-color: hsl(0, 0%, 86%);
     padding-left: 15px;
+    font-family: poppins;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1px;
+
 }
 
 td,th{
@@ -108,17 +119,14 @@ td{
     width: 430px;
   }
   @media only screen and (max-width: 845px){
-    body{
-        background-color: blue;
-    }    
- 
+   
     .linea{
         border-top: 1px solid hsl(0, 0%, 86%);
-        width: 124px;
+        width: 115px;
     }
     .linea2{
         border-top: 1px solid hsl(0, 0%, 86%);
-        width: 124px;
+        width: 115px;
     }
     .imagensection{
         display: flex;
@@ -146,6 +154,7 @@ td{
         width: auto;
         padding: 25px;
         padding-top: 55px;
+        padding-right: 10px;
         margin: 100px;
         margin-left: 200px;
         margin-right: 200px;
