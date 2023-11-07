@@ -25,7 +25,11 @@ body{
     border-inline-color: hsl(259, 100%, 65%);
     cursor: pointer;
 }
-
+.edit:active{
+    border-block-color: hsl(259, 100%, 65%);
+    border-inline-color: hsl(259, 100%, 65%);
+    cursor: pointer; 
+}
 
 p{
     color: hsl(259, 100%, 65%);
